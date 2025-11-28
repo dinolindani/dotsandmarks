@@ -1,0 +1,1348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dots & Marks Architectural Studio</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Montserrat:wght@300;400;500;600;700;800&family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#hero">
+          <!-- <span class="logo-dot"></span>
+          <span class="brand-text">Dots & Marks</span> -->
+          <img src="Dots and Marks W Logo.png" alt="Dots & Marks Logo" style="height:70px;">
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+                  <!-- center nav items -->
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#process">Process</a></li>
+            <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+
+          <!-- call button right -->
+          <a class="btn btn-gold-outline ms-lg-3" href="tel:+11234567890">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" style="margin-right:6px">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 2.08 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.12.89.34 1.76.65 2.6a2 2 0 0 1-.45 2.11l-1.27 1.27a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 11.36 11.36 0 0 0 2.6.65A2 2 0 0 1 22 16.92z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            Call Us
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Carousel -->
+  <section class="hero-carousel" id="hero">
+    
+   
+      <!-- Slide 1 -->
+    <div class="hero-slide active" data-slide="1">
+      <div class="hero-bg" style="background-image: url('hero-background.avif')"></div>
+      <div class="hero-overlay"></div>
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-lg-10 mx-auto text-center">
+            <div class="hero-content">
+              <div class="badge-premium">
+                <span class="shine"></span>
+                Award-Winning Architecture
+              </div>
+              <h1 class="hero-title">
+                <span class="title-decoration">Crafting</span>
+                <span class="title-main">Timeless Spaces</span>
+                <span class="title-sub">Where Vision Meets Reality</span>
+              </h1>
+              <p class="hero-tagline">We design architectural masterpieces that transcend time, blending innovation with elegance to create spaces that inspire and endure.</p>
+              <div class="hero-buttons">
+                <a href="#projects" class="btn btn-gold">
+                  <span>Explore Portfolio</span>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                    <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+                <a href="#contact" class="btn btn-outline-light">
+                  <span>Start Your Project</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="hero-slide" data-slide="2">
+      <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1600607687644-c7171b42498f?q=80&w=2070')"></div>
+      <div class="hero-overlay"></div>
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-lg-10 mx-auto text-center">
+            <div class="hero-content">
+              <div class="badge-premium">
+                <span class="shine"></span>
+                Interior Excellence
+              </div>
+              <h1 class="hero-title">
+                <span class="title-decoration">Designing</span>
+                <span class="title-main">Luxury Interiors</span>
+                <span class="title-sub">Every Detail Matters</span>
+              </h1>
+              <p class="hero-tagline">From concept to completion, we curate sophisticated interiors that reflect your unique style and elevate everyday living into extraordinary experiences.</p>
+              <div class="hero-buttons">
+                <a href="#services" class="btn btn-gold">
+                  <span>Our Services</span>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                    <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+                <a href="#contact" class="btn btn-outline-light">
+                  <span>Book Consultation</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+    <!-- Slide 3 -->
+    <div class="hero-slide" data-slide="3">
+      <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1511818966892-d7d671e672a2?q=80&w=2071')"></div>
+      <div class="hero-overlay"></div>
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-lg-10 mx-auto text-center">
+            <div class="hero-content">
+              <div class="badge-premium">
+                <span class="shine"></span>
+                Urban Planning
+              </div>
+              <h1 class="hero-title">
+                <span class="title-decoration">Shaping</span>
+                <span class="title-main">Modern Cities</span>
+                <span class="title-sub">Sustainable Development</span>
+              </h1>
+              <p class="hero-tagline">We envision and create urban landscapes that harmonize with nature, foster community, and set new standards for sustainable development.</p>
+              <div class="hero-buttons">
+                <a href="#projects" class="btn btn-gold">
+                  <span>View Projects</span>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                    <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+                <a href="#contact" class="btn btn-outline-light">
+                  <span>Get In Touch</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 4 -->
+    <div class="hero-slide" data-slide="4">
+      <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070')"></div>
+      <div class="hero-overlay"></div>
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-lg-10 mx-auto text-center">
+            <div class="hero-content">
+              <div class="badge-premium">
+                <span class="shine"></span>
+                3D Visualization
+              </div>
+              <h1 class="hero-title">
+                <span class="title-decoration">Bringing</span>
+                <span class="title-main">Dreams to Life</span>
+                <span class="title-sub">Photorealistic Renderings</span>
+              </h1>
+              <p class="hero-tagline">Experience your future space before it's built. Our cutting-edge visualization technology transforms blueprints into breathtaking reality.</p>
+              <div class="hero-buttons">
+                <a href="#process" class="btn btn-gold">
+                  <span>Our Process</span>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                    <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+                <a href="#contact" class="btn btn-outline-light">
+                  <span>Request Quote</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Arrows -->
+    <button class="carousel-arrow arrow-prev" id="prevSlide">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+        <path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+    <button class="carousel-arrow arrow-next" id="nextSlide">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+        <path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+
+    <!-- Navigation Dots -->
+    <div class="carousel-dots">
+      <button class="dot active" data-slide="1"></button>
+      <button class="dot" data-slide="2"></button>
+      <button class="dot" data-slide="3"></button>
+      <button class="dot" data-slide="4"></button>
+    </div>
+
+    <!-- Slide Counter -->
+    <div class="slide-counter" style="display: none;">
+      <span class="current">01</span>
+      <span class="divider">/</span>
+      <span class="total">04</span>
+    </div>
+
+  </section>
+
+  <!-- ------------------------------------------------ -->
+   <!-- About Section -->
+<section class="about-section" id="about">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      
+      <!-- Left: Images Grid -->
+      <div class="col-lg-6">
+        <div class="about-images">
+          <div class="about-img-main" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?q=80&w=2071" alt="Architecture Studio">
+            <div class="experience-badge">
+              <span class="experience-number">15+</span>
+              <span class="experience-text">Years of Excellence</span>
+            </div>
+          </div>
+          <div class="about-img-secondary" data-aos="fade-up" data-aos-delay="200">
+            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200" alt="Modern Design">
+          </div>
+          <div class="about-decoration">
+            <svg width="120" height="120" viewBox="0 0 120 120">
+              <circle cx="60" cy="60" r="58" fill="none" stroke="#D4AF37" stroke-width="2" opacity="0.3"/>
+              <circle cx="60" cy="60" r="45" fill="none" stroke="#D4AF37" stroke-width="2" opacity="0.2"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Content -->
+      <div class="col-lg-6">
+        <div class="about-content" data-aos="fade-left">
+          <div class="section-label">
+            <span class="label-line"></span>
+            <span class="label-text">About Us</span>
+          </div>
+          <h2 class="section-title">
+            <span class="title-accent">Creating</span>
+            Architectural Masterpieces Since 2009
+          </h2>
+          <p class="section-description">
+            At Dots & Marks, we believe that architecture is more than just buildings—it's about creating experiences, telling stories, and shaping the future. With over 15 years of expertise, we've transformed visions into award-winning realities.
+          </p>
+          <p class="section-description">
+            Our team of passionate architects, designers, and engineers work collaboratively to deliver innovative solutions that blend aesthetic excellence with functional brilliance. Every project is a unique journey where we push boundaries and exceed expectations.
+          </p>
+
+          <div class="about-stats">
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="stat-number">250+</h3>
+              <p class="stat-label">Projects Completed</p>
+            </div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+              <h3 class="stat-number">50+</h3>
+              <p class="stat-label">Awards Won</p>
+            </div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+              <h3 class="stat-number">100%</h3>
+              <p class="stat-label">Client Satisfaction</p>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn btn-gold-primary">
+            <span>Let's Collaborate</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+              <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section class="services-section" id="services">
+  <div class="container">
+    
+    <!-- Section Header -->
+    <div class="row mb-5">
+      <div class="col-lg-8 mx-auto text-center">
+        <div class="section-label" data-aos="fade-up">
+          <span class="label-line"></span>
+          <span class="label-text">Our Services</span>
+          <span class="label-line"></span>
+        </div>
+        <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">
+          <span class="title-accent">Comprehensive</span>
+          Design Solutions
+        </h2>
+        <p class="section-description" data-aos="fade-up" data-aos-delay="200">
+          From concept to completion, we deliver excellence in every aspect of architecture and design.
+        </p>
+      </div>
+    </div>
+
+    <!-- Services Grid -->
+    <div class="row g-4">
+      
+      <!-- Service Card 1 -->
+      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-card-compact" style="--bg:url('https://images.unsplash.com/photo-1501594907352-04cda38ebc29')">
+          <div class="service-icon-compact">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none">
+              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <polyline points="9 22 9 12 15 12 15 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="service-title-compact">Architectural Design</h3>
+          <p class="service-desc-compact">
+            Innovative and sustainable architectural solutions from concept to completion.
+          </p>
+          <a href="#contact" class="service-link">
+            Learn More
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+              <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Service Card 2 -->
+      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-card-compact"  style="--bg:url('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85')">
+          <div class="service-icon-compact">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none">
+              <rect x="3" y="3" width="7" height="7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <rect x="14" y="3" width="7" height="7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <rect x="14" y="14" width="7" height="7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <rect x="3" y="14" width="7" height="7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="service-title-compact">Interior Design</h3>
+          <p class="service-desc-compact">
+            Luxurious and functional interior spaces tailored to your unique lifestyle.
+          </p>
+          <a href="#contact" class="service-link">
+            Learn More
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+              <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Service Card 3 -->
+      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-card-compact" style="--bg:url('https://images.unsplash.com/photo-1554995207-c18c203602cb')">
+          <div class="service-icon-compact">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none">
+              <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <polyline points="3.27 6.96 12 12.01 20.73 6.96" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <line x1="12" y1="22.08" x2="12" y2="12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="service-title-compact">3D Visualization</h3>
+          <p class="service-desc-compact">
+            Photorealistic renderings and virtual walkthroughs of your future space.
+          </p>
+          <a href="#contact" class="service-link">
+            Learn More
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+              <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Service Card 4 -->
+      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-card-compact" style="--bg:url('https://images.unsplash.com/photo-1505761671935-60b3a7427bad')">
+          <div class="service-icon-compact">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none">
+              <path d="M12 2L2 7l10 5 10-5-10-5z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M2 17l10 5 10-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M2 12l10 5 10-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="service-title-compact">Urban Planning</h3>
+          <p class="service-desc-compact">
+            Sustainable community development that balances growth and environment.
+          </p>
+          <a href="#contact" class="service-link">
+            Learn More
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+              <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Service Card 5 -->
+      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="500">
+        <div class="service-card-compact" style="--bg:url('https://images.unsplash.com/photo-1551836022-4c4c79ecde51')">
+          <div class="service-icon-compact">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <polyline points="14 2 14 8 20 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <line x1="16" y1="13" x2="8" y2="13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <line x1="16" y1="17" x2="8" y2="17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <polyline points="10 9 9 9 8 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="service-title-compact">Project Management</h3>
+          <p class="service-desc-compact">
+            End-to-end project coordination ensuring timely and quality delivery.
+          </p>
+          <a href="#contact" class="service-link">
+            Learn More
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+              <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Service Card 6 -->
+      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="600">
+        <div class="service-card-compact" style="--bg:url('https://images.unsplash.com/photo-1573164713988-8665fc963095')">
+          <div class="service-icon-compact">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none">
+              <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12 6v6l4 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="service-title-compact">Consultation</h3>
+          <p class="service-desc-compact">
+            Expert guidance and personalized advice for your architectural needs.
+          </p>
+          <a href="#contact" class="service-link">
+            Learn More
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+              <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Service Card 7 -->
+      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="700">
+        <div class="service-card-compact" style="--bg:url('https://images.unsplash.com/photo-1560448204-e02f11c3d0e2')">
+          <div class="service-icon-compact">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="service-title-compact">Site Analysis</h3>
+          <p class="service-desc-compact">
+            Comprehensive evaluation of location, environment, and feasibility.
+          </p>
+          <a href="#contact" class="service-link">
+            Learn More
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+              <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Service Card 8 -->
+      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="800">
+        <div class="service-card-compact" style="--bg:url('https://images.unsplash.com/photo-1551434678-e076c223a692')">
+          <div class="service-icon-compact">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="9" cy="7" r="4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="service-title-compact">Team Collaboration</h3>
+          <p class="service-desc-compact">
+            Working with contractors, engineers, and stakeholders seamlessly.
+          </p>
+          <a href="#contact" class="service-link">
+            Learn More
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+              <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ------------------------------------projects--------------------------- -->
+<!-- Projects Section -->
+<section class="projects-section" id="projects">
+  
+  <!-- Geometric Background Decorations -->
+  <div class="geometric-bg">
+    <div class="geo-shape geo-circle"></div>
+    <div class="geo-shape geo-square"></div>
+  </div>
+
+  <div class="container">
+    
+    <!-- Section Header -->
+    <div class="row mb-4">
+      <div class="col-lg-8 mx-auto text-center">
+        <div class="section-label" data-aos="fade-up">
+          <span class="label-line"></span>
+          <span class="label-text">Our Portfolio</span>
+          <span class="label-line"></span>
+        </div>
+        <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">
+          <span class="title-accent">Featured</span>
+          Projects
+        </h2>
+        <p class="section-description" data-aos="fade-up" data-aos-delay="200">
+          Explore our award-winning projects that showcase innovation and excellence.
+        </p>
+      </div>
+    </div>
+
+    <!-- Filter Tabs -->
+    <div class="project-filters" data-aos="fade-up" data-aos-delay="300">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="residential">Residential</button>
+      <button class="filter-btn" data-filter="commercial">Commercial</button>
+      <button class="filter-btn" data-filter="interior">Interior</button>
+    </div>
+
+    <!-- Projects Grid -->
+    <div class="projects-grid">
+      
+      <!-- Project 1 -->
+      <div class="project-item" data-category="residential" data-aos="fade-up" data-aos-delay="100">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800" alt="Modern Villa">
+            <div class="project-overlay">
+              <div class="project-category">Residential</div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Skyline Villa</h3>
+            <p class="project-location">Los Angeles, CA</p>
+          </div>
+          <div class="geometric-icon">
+            <svg viewBox="0 0 100 100">
+              <polygon points="50,15 90,85 10,85" fill="currentColor"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-item" data-category="commercial" data-aos="fade-up" data-aos-delay="200">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800" alt="Corporate Tower">
+            <div class="project-overlay">
+              <div class="project-category">Commercial</div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Metro Tower</h3>
+            <p class="project-location">New York, NY</p>
+          </div>
+          <div class="geometric-icon">
+            <svg viewBox="0 0 100 100">
+              <circle cx="50" cy="50" r="40" fill="currentColor"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-item" data-category="interior" data-aos="fade-up" data-aos-delay="300">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?q=80&w=800" alt="Luxury Interior">
+            <div class="project-overlay">
+              <div class="project-category">Interior</div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Royal Suite</h3>
+            <p class="project-location">Dubai, UAE</p>
+          </div>
+          <div class="geometric-icon">
+            <svg viewBox="0 0 100 100">
+              <rect x="20" y="20" width="60" height="60" fill="currentColor"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="project-item" data-category="residential" data-aos="fade-up" data-aos-delay="400">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=800" alt="Beach House">
+            <div class="project-overlay">
+              <div class="project-category">Residential</div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Coastal Retreat</h3>
+            <p class="project-location">Malibu, CA</p>
+          </div>
+          <div class="geometric-icon">
+            <svg viewBox="0 0 100 100">
+              <polygon points="50,10 90,50 50,90 10,50" fill="currentColor"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 5 -->
+      <div class="project-item" data-category="commercial" data-aos="fade-up" data-aos-delay="500">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=800" alt="Shopping Complex">
+            <div class="project-overlay">
+              <div class="project-category">Commercial</div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Plaza Central</h3>
+            <p class="project-location">Miami, FL</p>
+          </div>
+          <div class="geometric-icon">
+            <svg viewBox="0 0 100 100">
+              <circle cx="50" cy="50" r="40" fill="currentColor"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 6 -->
+      <div class="project-item" data-category="interior" data-aos="fade-up" data-aos-delay="600">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=800" alt="Restaurant Interior">
+            <div class="project-overlay">
+              <div class="project-category">Interior</div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Noir Restaurant</h3>
+            <p class="project-location">San Francisco, CA</p>
+          </div>
+          <div class="geometric-icon">
+            <svg viewBox="0 0 100 100">
+              <rect x="20" y="20" width="60" height="60" fill="currentColor"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- View More Button -->
+    <div class="text-center mt-4" data-aos="fade-up">
+      <a href="#contact" class="btn btn-gold-primary">
+        <span>View All Projects</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+          <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </div>
+
+  </div>
+</section>
+<!-- -------------------------------------------------------------------------- -->
+<!-- Process Section -->
+<section class="process-section" id="process">
+  
+  <!-- Architectural Shapes Background -->
+  <div class="arch-shapes">
+    <div class="arch-shape shape-1"></div>
+    <div class="arch-shape shape-2"></div>
+    <div class="arch-shape shape-3"></div>
+    <div class="arch-shape shape-4"></div>
+  </div>
+
+  <div class="container">
+    
+    <!-- Section Header -->
+    <div class="row mb-4">
+      <div class="col-lg-8 mx-auto text-center">
+        <div class="section-label" data-aos="fade-up">
+          <span class="label-line"></span>
+          <span class="label-text">Our Process</span>
+          <span class="label-line"></span>
+        </div>
+        <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">
+          <span class="title-accent">How We</span>
+          Bring Ideas To Life
+        </h2>
+        <p class="section-description" data-aos="fade-up" data-aos-delay="200">
+          A simple, efficient approach from concept to completion in five essential steps.
+        </p>
+      </div>
+    </div>
+
+    <!-- Process Grid -->
+    <div class="process-grid">
+      
+      <!-- Step 1 -->
+      <div class="process-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="step-number-badge">01</div>
+        <div class="step-icon-wrapper">
+          <div class="step-icon-bg"></div>
+          <svg class="step-icon" width="36" height="36" viewBox="0 0 24 24" fill="none">
+            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3 class="step-title">Discovery</h3>
+        <p class="step-desc">Understanding your vision, requirements, and budget through detailed consultation.</p>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="process-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="step-number-badge">02</div>
+        <div class="step-icon-wrapper">
+          <div class="step-icon-bg"></div>
+          <svg class="step-icon" width="36" height="36" viewBox="0 0 24 24" fill="none">
+            <path d="M12 20h9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3 class="step-title">Design</h3>
+        <p class="step-desc">Creating innovative concepts with sketches, 3D models, and material selections.</p>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="process-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="step-number-badge">03</div>
+        <div class="step-icon-wrapper">
+          <div class="step-icon-bg"></div>
+          <svg class="step-icon" width="36" height="36" viewBox="0 0 24 24" fill="none">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            <polyline points="14 2 14 8 20 8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="16" y1="13" x2="8" y2="13" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="16" y1="17" x2="8" y2="17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3 class="step-title">Planning</h3>
+        <p class="step-desc">Developing technical drawings, obtaining permits, and finalizing specifications.</p>
+      </div>
+
+      <!-- Step 4 -->
+      <div class="process-card" data-aos="fade-up" data-aos-delay="400">
+        <div class="step-number-badge">04</div>
+        <div class="step-icon-wrapper">
+          <div class="step-icon-bg"></div>
+          <svg class="step-icon" width="36" height="36" viewBox="0 0 24 24" fill="none">
+            <rect x="3" y="3" width="7" height="9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            <rect x="14" y="3" width="7" height="5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            <rect x="14" y="12" width="7" height="9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            <rect x="3" y="16" width="7" height="5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3 class="step-title">Construction</h3>
+        <p class="step-desc">Expert oversight ensuring quality, timeline adherence, and budget control.</p>
+      </div>
+
+      <!-- Step 5 -->
+      <div class="process-card" data-aos="fade-up" data-aos-delay="500">
+        <div class="step-number-badge">05</div>
+        <div class="step-icon-wrapper">
+          <div class="step-icon-bg"></div>
+          <svg class="step-icon" width="36" height="36" viewBox="0 0 24 24" fill="none">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            <polyline points="22 4 12 14.01 9 11.01" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3 class="step-title">Delivery</h3>
+        <p class="step-desc">Final inspections, handover, and continued support for your new space.</p>
+      </div>
+
+    </div>
+
+    <!-- Bottom Info -->
+    <div class="process-footer" data-aos="fade-up" data-aos-delay="600">
+      <div class="row align-items-center">
+        <div class="col-md-9">
+          <h4 class="step-title">Ready to start your project?</h4>
+          <p class="section-description">Let's discuss how we can bring your architectural vision to life and transform your ideas into a crafted reality.</p>
+        </div>
+        <div class="col-md-3 text-md-end">
+          <a href="#contact" class="btn btn-gold-primary">
+            <span>Get Started</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+              <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="testimonials-section" id="testimonials">
+  
+  <div class="container">
+    
+    <!-- Section Header -->
+    <div class="row mb-5">
+      <div class="col-lg-8 mx-auto text-center">
+        <div class="section-label" data-aos="fade-up">
+          <span class="label-line"></span>
+          <span class="label-text">Testimonials</span>
+          <span class="label-line"></span>
+        </div>
+        <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">
+          <span class="title-accent">What Our</span>
+          Clients Say
+        </h2>
+        <p class="section-description" data-aos="fade-up" data-aos-delay="200">
+          Don't just take our word for it - hear from clients who've experienced our excellence.
+        </p>
+      </div>
+    </div>
+
+    <!-- Testimonials Grid -->
+    <div class="testimonials-grid">
+      
+      <!-- Testimonial 1 -->
+      <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="quote-icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+            <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z" fill="currentColor"/>
+            <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z" fill="currentColor"/>
+          </svg>
+        </div>
+        <div class="testimonial-rating">
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+        </div>
+        <p class="testimonial-text">
+          "Dots & Marks transformed our vision into a stunning reality. Their attention to detail and innovative design approach exceeded all expectations. Truly exceptional work!"
+        </p>
+        <div class="testimonial-author">
+          <div class="author-avatar">
+            <img src="https://i.pravatar.cc/150?img=12" alt="Michael Chen">
+          </div>
+          <div class="author-info">
+            <h4 class="author-name">Michael Chen</h4>
+            <p class="author-role">CEO, Tech Innovations</p>
+          </div>
+        </div>
+        <div class="card-shape"></div>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="quote-icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+            <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z" fill="currentColor"/>
+            <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z" fill="currentColor"/>
+          </svg>
+        </div>
+        <div class="testimonial-rating">
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+        </div>
+        <p class="testimonial-text">
+          "Working with this team was an absolute pleasure. From concept to completion, they maintained professionalism and creativity. Our new office space is breathtaking!"
+        </p>
+        <div class="testimonial-author">
+          <div class="author-avatar">
+            <img src="https://i.pravatar.cc/150?img=47" alt="Sarah Williams">
+          </div>
+          <div class="author-info">
+            <h4 class="author-name">Sarah Williams</h4>
+            <p class="author-role">Founder, Design Studio</p>
+          </div>
+        </div>
+        <div class="card-shape"></div>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="quote-icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+            <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z" fill="currentColor"/>
+            <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z" fill="currentColor"/>
+          </svg>
+        </div>
+        <div class="testimonial-rating">
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+        </div>
+        <p class="testimonial-text">
+          "The architectural brilliance and project management skills of this firm are unmatched. They delivered our dream home on time and within budget. Highly recommend!"
+        </p>
+        <div class="testimonial-author">
+          <div class="author-avatar">
+            <img src="https://i.pravatar.cc/150?img=33" alt="David Martinez">
+          </div>
+          <div class="author-info">
+            <h4 class="author-name">David Martinez</h4>
+            <p class="author-role">Real Estate Developer</p>
+          </div>
+        </div>
+        <div class="card-shape"></div>
+      </div>
+
+
+    </div>
+
+  </div>
+</section>
+
+<!-- Contact Section -->
+ <section class="contact section" id="contact">
+  <div class="row mb-5">
+      <div class="col-lg-8 mx-auto text-center">
+        <div class="section-label" data-aos="fade-up">
+          <span class="label-line"></span>
+          <span class="label-text">Get In Touch</span>
+          <span class="label-line"></span>
+        </div>
+        <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">
+          <span class="title-accent">Let's Create</span>
+          Something Amazing Together
+        </h2>
+        <p class="section-description" data-aos="fade-up" data-aos-delay="200">
+          Ready to transform your space? Reach out to us and let's discuss your vision.
+        </p>
+      </div>
+    </div>
+<!-- <section class="contact-section" id="contact"> -->
+  
+  <!-- <div class="container">
+    
+    
+    <div class="row mb-5">
+      <div class="col-lg-8 mx-auto text-center">
+        <div class="section-label" data-aos="fade-up">
+          <span class="label-line"></span>
+          <span class="label-text">Get In Touch</span>
+          <span class="label-line"></span>
+        </div>
+        <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">
+          <span class="title-accent">Let's Create</span>
+          Something Amazing Together
+        </h2>
+        <p class="section-description" data-aos="fade-up" data-aos-delay="200">
+          Ready to transform your space? Reach out to us and let's discuss your vision.
+        </p>
+      </div>
+    </div>
+
+    <div class="row g-4">
+      
+     
+      <div class="col-lg-5" data-aos="fade-right" data-aos-delay="300">
+        
+        
+        <div class="map-container">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126743.58515167123!2d78.06912839726562!3d9.917347000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c582b1189633%3A0xdc955b7264f63933!2sMadurai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1699999999999!5m2!1sen!2sin" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+
+        
+        <div class="contact-info-cards">
+          
+          <div class="info-card">
+            <div class="info-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="info-content">
+              <h4 class="info-title">Visit Us</h4>
+              <p class="info-text">123 Architecture Lane<br>Madurai, Tamil Nadu 625001</p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 2.08 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.12.89.34 1.76.65 2.6a2 2 0 0 1-.45 2.11l-1.27 1.27a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.84.31 1.71.53 2.6.65A2 2 0 0 1 22 16.92z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="info-content">
+              <h4 class="info-title">Call Us</h4>
+              <p class="info-text">+91 123 456 7890<br>+91 098 765 4321</p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="info-content">
+              <h4 class="info-title">Email Us</h4>
+              <p class="info-text">info@dotsmarks.com<br>projects@dotsmarks.com</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      
+      <div class="col-lg-7" data-aos="fade-left" data-aos-delay="400">
+        
+        <div class="contact-form-wrapper">
+          <form class="contact-form" id="contactForm">
+            
+            <div class="row g-3">
+              
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="name" class="form-label">Full Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="John Doe" required>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="email" class="form-label">Email Address</label>
+                  <input type="email" class="form-control" id="email" placeholder="john@example.com" required>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="phone" class="form-label">Phone Number</label>
+                  <input type="tel" class="form-control" id="phone" placeholder="+91 123 456 7890">
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="service" class="form-label">Service Interested</label>
+                  <select class="form-control" id="service" required>
+                    <option value="">Select a service</option>
+                    <option value="architecture">Architectural Design</option>
+                    <option value="interior">Interior Design</option>
+                    <option value="3d">3D Visualization</option>
+                    <option value="urban">Urban Planning</option>
+                    <option value="consultation">Consultation</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="form-group">
+                  <label for="message" class="form-label">Project Details</label>
+                  <textarea class="form-control" id="message" rows="5" placeholder="Tell us about your project..." required></textarea>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <button type="submit" class="btn btn-gold-primary btn-lg w-100">
+                  <span>Send Message</span>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                    <line x1="22" y1="2" x2="11" y2="13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+              </div>
+
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div> -->
+  <div class="container wrap">
+      <div class="panel reveal-zoom">
+        <h2 class="heading h2" style="color:#fff">Visit Us</h2>
+        <div class="map" role="img" aria-label="Map to Dots & Marks Studio">
+          <iframe title="Studio Location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086918915859!2d-122.40215532336581!3d37.78865917198467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858063c3d0f7a1%3A0x8e4c6125b91c9a0e!2sSalesforce%20Tower!5e0!3m2!1sen!2sus!4v1700000000000" width="100%" height="100%" style="border:0" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="info-list">
+          <div class="info">
+            <div class="icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M21 10c0 7-9 12-9 12S3 17 3 10a9 9 0 1 1 18 0Z" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1.6"/></svg>
+            </div>
+            <div>
+              <strong>San Francisco</strong><br/>415 Mission St, Suite 2600, CA 94105
+            </div>
+          </div>
+          <div class="info">
+            <div class="icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 2.08 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.12.89.34 1.76.65 2.6a2 2 0 0 1-.45 2.11l-1.27 1.27a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 11.36 11.36 0 0 0 2.6.65A2 2 0 0 1 22 16.92z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div>
+              <a href="tel:+11234567890" style="color:#fff">+1 (123) 456-7890</a><br/>
+              <a href="mailto:hello@dotsmarks.studio" style="color:#cfcfcf">hello@dotsmarks.studio</a>
+            </div>
+          </div>
+          <div class="info">
+            <div class="icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M3 7h18M3 12h18M3 17h18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </div>
+            <div>
+              Mon–Fri: 9:00–18:00<br/>By appointment only
+            </div>
+          </div>
+        </div>
+      </div>
+      <form class="form reveal-zoom" id="contactForm" novalidate>
+        <h2 class="heading h2">Tell us about your project</h2>
+        <div class="row pt-4">
+          <div class="field">
+            <label for="name">Full Name</label>
+            <input class="input" id="name" name="name" type="text" placeholder="Jane Doe" required />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input class="input" id="email" name="email" type="email" placeholder="jane@domain.com" required />
+          </div>
+        </div>
+        <div class="row">
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input class="input" id="phone" name="phone" type="tel" placeholder="+1 555 000 1234" />
+          </div>
+          <div class="field">
+            <label for="type">Project Type</label>
+            <select class="select" id="type" name="type">
+              <option>Residential</option>
+              <option>Commercial</option>
+              <option>Cultural</option>
+              <option>Interior</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea class="textarea" id="message" name="message" placeholder="Goals, site location, timeline..."></textarea>
+          <div class="hint">We usually respond within 1–2 business days.</div>
+        </div>
+        <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+          <button type="submit" class="btn btn-gold">Send Request</button>
+          <span id="formStatus" class="muted" role="status" aria-live="polite"></span>
+        </div>
+      </form>
+    </div>
+
+
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+  
+  <div class="footer-main">
+    <div class="container">
+      <div class="row g-4">
+        
+        <!-- Company Info -->
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-widget">
+            <div class="footer-brand">
+              <!-- <span class="logo-dot"></span>
+              <span class="brand-text">Dots & Marks</span> -->
+              <img src="Dots and Marks W Logo.png" alt="Dots & Marks Logo" style="height:90px;">
+            </div>
+            <p class="footer-description">
+              Transforming visions into architectural masterpieces. We blend innovation with elegance to create spaces that inspire and endure.
+            </p>
+            <div class="footer-social">
+              <a href="#" class="social-link" aria-label="Facebook">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+              <a href="#" class="social-link" aria-label="Instagram">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+              <a href="#" class="social-link" aria-label="Twitter">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+              <a href="#" class="social-link" aria-label="LinkedIn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <rect x="2" y="9" width="4" height="12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <circle cx="4" cy="4" r="2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-lg-2 col-md-6">
+          <div class="footer-widget">
+            <h3 class="footer-title">Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#process">Process</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Services -->
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-widget">
+            <h3 class="footer-title">Our Services</h3>
+            <ul class="footer-links">
+              <li><a href="#services">Architectural Design</a></li>
+              <li><a href="#services">Interior Design</a></li>
+              <li><a href="#services">3D Visualization</a></li>
+              <li><a href="#services">Urban Planning</a></li>
+              <li><a href="#services">Consultation</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-widget">
+            <h3 class="footer-title">Newsletter</h3>
+            <p class="footer-newsletter-text">Subscribe to get latest updates and news.</p>
+            <form class="newsletter-form">
+              <div class="input-group">
+                <input type="email" class="form-control" placeholder="Your email" required>
+                <button type="submit" class="btn-subscribe">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                    <line x1="22" y1="2" x2="11" y2="13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Bottom -->
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="copyright-text">© 2025 Dots & Marks. All rights reserved.</p>
+        </div>
+        <div class="col-md-6">
+          <!-- <ul class="footer-bottom-links">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Sitemap</a></li>
+          </ul> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+<!-- Scroll to Top Button -->
+<button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+</button>
+
+
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({ duration: 800, once: true });</script>
+  
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+
+
+
+</body>
+</html>
